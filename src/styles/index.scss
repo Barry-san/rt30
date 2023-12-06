@@ -1,0 +1,16 @@
+@use "./base/reset";
+@use "./base/variables";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import url("./components/navbar.scss");
+@import url("./components/hero.scss");
+@import url("./components/hosts.scss");
+@import url("./components/footer.scss");
+main {
+  font-family: "Poppins", sans-serif;
+  padding: 1rem;
+}
+
+body {
+  background-color: #1e1e1e;
+  color: #e2e2e2;
+}

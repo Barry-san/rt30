@@ -1,0 +1,38 @@
+.hosts {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.hosts__title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.hosts__article {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.hosts__article__text {
+  padding: 1rem;
+  h2 {
+    font-size: 1.5em;
+    text-decoration: underline;
+    font-weight: 600;
+  }
+}
+
+@media (min-width: 800px) {
+  .hosts__article {
+    flex-direction: row;
+  }
+
+  .issac {
+    order: 1;
+  }
+}
